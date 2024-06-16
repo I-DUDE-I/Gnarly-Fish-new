@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header .row{
+    display: flex;
+    align-items: center;
+}
+
+header .cols{
+    display: flex;
+    align-items: center;
+}
+header .cole{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+header .colc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .b1{
+    height: 45px;
+    width: 45px;
+    background-color: #93d5f8;
+}
+header input{
+    height: 45px;
+    width: 300px;
+}
+header img{
+    width: 100px;
+}
+header .label1{
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    color: #00319c;
+}
+header .label2{
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 800;
+    color: #61c1ec;
+}
+header .label3{
+    color: #61c1ec;
+    font-size: 120%;
+}
+header .label4{
+    font-size: 120%;
+}
+header .label5{
+    font-size: 150%;
+    color: rgb(209, 209, 209);
+}
+header .b2{
+    background-color: #f2f2f3;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px rgb(197, 197, 197) solid;
+}
+
+/* nav */
+
+nav .row{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(230, 230, 230);
+}
+nav .col{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 120%;
+    color: grey;
+    border-left: 2px solid rgb(230, 230, 230);
+}
+
+
+/* banner */
+
+#banner .banner{
+    background-image: url(./Images/banner.jpg);
+    background-size: cover;
+    height: 900px;
+}
+#banner img{
+    width: 200px;
+    position: absolute;
+    left: 74%;
+}
+#banner .block{
+    height: 100%;
+    width: 40%;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#banner button{
+    width: 230px;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: #01256b;
+}
+#banner .header1{
+    color: #022265;
+    font-family: "EB Garamond", serif;
+    font-size: 200%;
+}
+#banner .header2{
+    color:#5ec0ed;
+    font-family: "EB Garamond", serif;
+    font-size: 200%;
+}
+#banner p{
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-size: 180%;
+    font-weight: 500;
+    text-shadow: 0px 0px 20px white;
+}
