@@ -48,9 +48,11 @@ header .label2{
 header .label3{
     color: #61c1ec;
     font-size: 120%;
+    cursor: pointer;
 }
 header .label4{
     font-size: 120%;
+    cursor: pointer;
 }
 header .label5{
     font-size: 150%;
@@ -81,6 +83,10 @@ nav .col{
     font-size: 120%;
     color: grey;
     border-left: 2px solid rgb(230, 230, 230);
+    cursor: pointer;
+}
+nav .col:hover{
+    color:#00319c;
 }
 
 
@@ -112,6 +118,7 @@ nav .col{
     font-weight: bold;
     font-size: 120%;
     background-color: #01256b;
+    border: 0px solid rgba(0, 0, 0, 0);
 }
 #banner .header1{
     color: #022265;
@@ -129,3 +136,92 @@ nav .col{
     font-weight: 500;
     text-shadow: 0px 0px 20px white;
 }
+
+/* content1 */
+
+#content1 .row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+
+#content1 .col1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+#content1 .col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+#content1 .div1,.div2,.div4,.div5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30PX;
+    height: 333px;
+}
+#content1 .div1,.div4{
+    padding-left: 50%;
+}
+#content1 .div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+#content1 h1{
+    font-family: "EB Garamond", serif;
+    font-size: 300%;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+#content1 p{
+    font-family: "EB Garamond", serif;
+    font-size: 150%;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+#content1 button{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #5cc3ef;
+    color: #5cc3ef;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+    transition: all 0.6s;
+    transition-timing-function: ease-out;
+}
+#content1 button:hover{
+    filter:contrast(100);
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: 0PX 0PX 3PX black;
+}
+#content1 .div1{
+    background-image: url(./Images/content1/1.jpg);
+    background-size: cover;
+}
+#content1 .div2{
+    background-image: url(./Images/content1/2.webp);
+    background-size: cover;
+}
+#content1 .div3{
+    background-image: url(./Images/content1/3.jpg);
+    background-size: cover;
+}
+#content1 .div4{
+    background-image: url(./Images/content1/4.jpg);
+    background-size: cover;
+}
+#content1 .div5{
+    background-image: url(./Images/content1/5.PNG);
+    background-size: cover;
+}
+
