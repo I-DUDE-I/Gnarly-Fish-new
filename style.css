@@ -159,14 +159,14 @@ nav .col:hover{
     justify-content: space-between;
     gap: 20px;
 }
-#content1 .div1,.div2,.div4,.div5{
+#content1 .div1,#content1 .div2,#content1 .div4,#content1 .div5{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30PX;
     height: 333px;
 }
-#content1 .div1,.div4{
+#content1 .div1,#content1 .div4{
     padding-left: 50%;
 }
 #content1 .div3{
@@ -225,3 +225,179 @@ nav .col:hover{
     background-size: cover;
 }
 
+/* content2  */
+
+#content2 .div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#content2 .img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 43px;
+}
+#content2 h1{
+    border-bottom: 2px solid rgb(218, 218, 218);
+    padding-bottom: 17px;
+    font-family: "EB Garamond", serif;
+}
+#content2 .header1{
+    color:#00319c;
+}
+#content2 .header2{
+    color:#5cc3ef;
+}
+
+#content2 .row{
+    gap: 100px;
+    margin-top: 30px;
+}
+#content2 .col1{
+    display: flex;
+    justify-content: end;
+}
+#content2 .col3{
+    display: flex;
+    justify-content:start;
+}
+
+#content2 .col2{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+#content2 .div1{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#content2 h2{
+    font-family: "EB Garamond", serif;
+}
+#content2 .price1{
+    color: grey;
+    font-size: 120%;
+    text-decoration: line-through;
+}
+#content2 .price2{
+    color:#5cc3ef;
+    font-size: 150%;
+    font-weight: bolder;
+}
+#content2 .b2{
+    height: 50px;
+    padding: 0px 10px;
+    color: white;
+    background-color: #00319c;
+    font-weight: bold;
+}
+#content2 .b1{
+    height: 70px;
+    width: 70px;
+    margin-top: 90px;
+    padding:10px 15px;
+    font-size: 200%;
+    border: 1px solid rgb(214, 214, 214);
+    color: grey;
+
+}
+
+
+/* content3 */
+#content3 .div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#content3 .img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 63px;
+}
+#content3 h1{
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(218, 218, 218);
+    padding-bottom: 17px;
+    font-family: "EB Garamond", serif;
+}
+#content3 .header1{
+    color:#00319c;
+}
+#content3 .header2{
+    color:#5cc3ef;
+}
+
+#content3 .row{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#content3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* footer */
+
+footer .divmain{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+footer .drop{
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left: 20%;
+}
+footer .div1,footer .div2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+footer h4{
+    font-family: "EB Garamond", serif;
+    border-bottom: 2px solid rgb(210, 210, 210);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+footer ul{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 120%;
+}
+footer .div2 img{
+    margin-bottom: 50px;
+    width: 300px;
+}
+footer input{
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    border: 1px solid rgb(226, 226, 226);
+}
+footer button{
+    height: 50px;
+    width: 50px;
+    background-color: #91d7f3;
+    border: 0px solid rgba(0, 0, 0, 0);
+}
+footer .divsub{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
