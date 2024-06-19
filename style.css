@@ -304,7 +304,27 @@ nav .col:hover{
     color: grey;
 
 }
-
+#content2 .col2{
+    position: relative;
+}
+#content2 .prizetag{
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    height: 33px;
+    color: white;
+    background-color:#93d9f7;
+    width: 100px;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%, 10% 50%);
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+#content2 .prizetag:hover{
+    background-color: blue;
+    scale: 1.01;
+}
 
 /* content3 */
 #content3 .div{
